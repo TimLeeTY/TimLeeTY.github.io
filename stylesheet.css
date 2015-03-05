@@ -32,7 +32,9 @@ svg.icon{
 	position:relative;
 	right:11%;
 	margin-right:10px;
-
+}
+a.icon{
+	text-decoration:none;
 }
 div.content{
 	z-index:0;
