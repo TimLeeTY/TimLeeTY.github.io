@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<script src="jquery-1.11.2.min.js"></script>
+	<script src="script.js"></script>
+	<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<div class="heading">
+		<svg class="logo" x="0px" y="0px"
+			 width="370px" height="180" viewBox="0 0 150 100" style="enable-background:new 0 0 150 100;" xml:space="preserve">
+		<path d="M43.188,13.348c-0.433,0.433-0.649,0.946-0.649,1.539c0,0.637,0.21,1.167,0.632,1.588c0.433,0.433,0.957,0.649,1.572,0.649
+			c0.615,0,1.139-0.216,1.572-0.649c0.433-0.433,0.649-0.957,0.649-1.572c0-0.604-0.216-1.122-0.649-1.555
+			c-0.433-0.433-0.945-0.649-1.538-0.649S43.654,12.916,43.188,13.348z"/>
+		<path d="M144.617,42.474c0,0-10.171-0.437-18.252-1.071c-2.009-0.907-4.02-1.65-6.037-2.243c0.539-1.093,0.864-2.488,0.963-4.204
+			h-3.456c0,1.621-0.302,2.736-0.904,3.347c-1.012-0.202-2.027-0.345-3.044-0.459c-0.627-1.026-0.945-2.828-0.945-5.432h8.485v-0.466
+			c0-7.093-2.014-10.64-6.039-10.64c-2.07,0-3.601,0.854-4.592,2.563c-0.99,1.708-1.485,4.336-1.485,7.882
+			c0,1.787,0.12,3.327,0.359,4.622c0.082,0.442,0.185,0.849,0.298,1.238c-1.144,0.003-2.293,0.087-3.445,0.21
+			c0.216-0.803,0.369-1.696,0.428-2.722h-3.456c0,1.649-0.314,2.771-0.938,3.375c-0.595,0.136-1.19,0.291-1.788,0.461
+			c-1.438-0.325-2.167-2.437-2.167-6.38h8.485v-0.466c0-7.094-2.013-10.64-6.039-10.64c-2.07,0-3.601,0.854-4.592,2.563
+			c-0.99,1.709-1.485,4.337-1.485,7.883c0,1.787,0.12,3.327,0.359,4.622c0.24,1.294,0.611,2.362,1.117,3.204
+			c0.125,0.208,0.258,0.402,0.398,0.583c-0.382,0.155-0.762,0.298-1.146,0.468h-7.383V8.088h-4.971v36.891h5.133
+			c-0.815,0.699-1.568,1.49-2.265,2.342c-1.02-0.814-4.312-3.315-6.56-3.552c-2.119-0.223-6.303-0.256-8.581-0.026V27.226
+			c0-1.404-0.363-2.467-1.092-3.188c-0.728-0.721-1.781-1.082-3.161-1.082c-1.772,0-3.14,0.909-4.102,2.727
+			c-0.646-1.818-1.874-2.727-3.684-2.727c-1.658,0-2.988,0.909-3.987,2.727v-2.407h-3.627v16.057c-1.51-0.472-3.01-0.83-4.503-1.087
+			v-17.83h-4.022v17.381c-2.7-0.135-5.377,0.055-8.039,0.549V6.989h13.897V2.163H20.51v4.827h8.937v32.763
+			c-1.507,0.505-3.011,1.097-4.513,1.775c-8.081,0.634-18.252,1.071-18.252,1.071s-0.376,6.146,0.967,7.465
+			c1.197,1.172,5.318,0.361,6.996,1.575c-0.761,2.858-1.27,6.641-1.069,10.812c0.725,15.077,7.284,26.661,28.009,27.875
+			c16.141,0.944,26.57-8.118,28.266-27.875c0.326-3.826-0.57-7.828-2.349-11.298c1.042-0.968,2.557-2.27,3.283-2.385
+			c2.174-0.346,6.628-0.387,8.806-0.062c0.848,0.126,2.83,1.701,4.011,2.694c-1.652,3.382-2.468,7.237-2.153,10.926
+			c1.695,19.757,12.125,28.819,28.266,27.875c20.725-1.214,27.283-12.798,28.008-27.875c0.201-4.172-0.307-7.953-1.067-10.812
+			c1.677-1.214,5.799-0.403,6.995-1.575C144.994,48.62,144.617,42.474,144.617,42.474z M113.66,25.578
+			c0.323-0.738,0.867-1.106,1.631-1.106c0.751,0,1.294,0.368,1.632,1.106c0.323,0.66,0.562,2.045,0.717,4.155h-4.698
+			C113.098,27.623,113.336,26.237,113.66,25.578z M99.319,25.723c0.323-0.738,0.867-1.107,1.631-1.107
+			c0.751,0,1.295,0.369,1.632,1.107c0.323,0.66,0.562,2.045,0.718,4.155h-4.699C98.757,27.768,98.995,26.382,99.319,25.723z
+			 M63.213,29.934c0-1.442,0.152-2.419,0.456-2.933c0.316-0.527,0.911-0.79,1.785-0.79c0.771,0,1.291,0.257,1.557,0.77
+			c0.278,0.502,0.418,1.486,0.418,6.074v12.12c-1.047,0.568-2.087,1.192-2.85,1.666c-0.433-0.487-0.891-0.943-1.365-1.376V29.934z
+			 M55.049,29.934c0-1.354,0.176-2.313,0.532-2.878c0.354-0.563,0.948-0.845,1.784-0.845c0.393,0,0.722,0.065,0.987,0.197
+			c0.266,0.132,0.481,0.342,0.645,0.63c0.165,0.289,0.282,0.67,0.352,1.147c0.07,0.477,0.104,1.06,0.104,1.749V42.74l0.43,0.357
+			c-1.624-0.937-3.235-1.744-4.834-2.424V29.934z M67.95,62.491c-1.573,18.467-11.258,26.938-26.243,26.055
+			c-19.242-1.135-25.332-11.963-26.005-26.055c-0.332-6.93,0.781-11.262,3.381-14.332c0.094-0.1,0.183-0.206,0.28-0.299
+			c0.569-0.547,1.219-1.154,1.894-1.752c0.905-0.686,1.916-1.304,3.043-1.878c11.411-5.805,22.486-6.149,35.095,0.567
+			C65.15,47.862,68.53,55.642,67.95,62.491z M135.598,62.366c-0.672,14.092-6.762,24.92-26.004,26.055
+			c-14.986,0.883-24.67-7.588-26.244-26.055c-0.58-6.85,2.801-14.629,8.555-17.694c12.609-6.716,23.686-6.372,35.096-0.567
+			c1.127,0.574,2.139,1.192,3.043,1.878c0.676,0.598,1.324,1.205,1.895,1.752c0.098,0.093,0.186,0.199,0.279,0.299
+			C134.816,51.104,135.93,55.437,135.598,62.366z"/>
+		</svg>
+		
+		<a href="https://facebook.com" target="_blank" style="text-decoration:none">
+		<svg class="icon" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 50 50" enable-background="new 0 0 266.893 266.895" xml:space="preserve">
+			<path id="Blue_1_" fill="#000000" d="M47.297,50.059c1.524,0,2.762-1.237,2.762-2.762V2.763C50.059,1.237,48.821,0,47.297,0H2.763
+				C1.236,0,0,1.237,0,2.763v44.534c0,1.524,1.236,2.762,2.763,2.762H47.297z"/>
+			<path id="f" fill="#FFFFFF" d="M34.54,50.059V30.674h6.507l0.975-7.555H34.54v-4.824c0-2.187,0.607-3.678,3.745-3.678l3.998-0.001
+				V7.858c-0.69-0.092-3.065-0.297-5.827-0.297c-5.769,0-9.719,3.521-9.719,9.986v5.572h-6.522v7.555h6.522v19.385H34.54z"/>
+		</svg>
+		</a>
+		
+		<svg class="icon" width="40px" height="40px" x="0px" y="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+
+		<g>
+			<path d="M50,45c0,2.75-2.25,5-5,5H5c-2.75,0-5-2.25-5-5V5c0-2.75,2.25-5,5-5h40c2.75,0,5,2.25,5,5V45z"/>
+		</g>
+		<path fill="#FFFFFF" d="M50,9.602L49.998,4.6L24.99,25.082L-0.001,4.6v5.002L19,26.5L4.609,50h4.898l12.388-20.994
+			c0.583,0.742,1.85,1.389,3.105,1.389c1.451,0,2.748-0.939,3.074-1.402L40.5,49.998h5.041L31,26.5L50,9.602z"/>
+		</svg>
+		
+	</div>
+	<div class="content">
+	</div>
+	<div id="one" class="section">
+		<span class="title">Project Euler</span> -My first contact with the great world of progamming and computer science!
+	</div>
+	<div id="subOne" class="subsection">
+		<script class="gist" src="https://gist.github.com/TimLeeTY/25d70cd4b3f6c89ab9db.js"></script>
+		<p class="subtext">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</div>
+	<div id="two" class="section">
+		<span class="title">Code Assess</span> -My contribution was admmitedly limited, but it's still something I'm proud of.
+	</div>
+	<div id="subTwo" class="subsection">
+		<p class="subtext">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</div>
+	<div id="three" class="section">
+		<span class="title">Temp</span> -Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod...
+	</div>
+	<div id="subThree" class="subsection">
+		<p class="subtext">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</div>
+	
+
+</body>	
+</html>
