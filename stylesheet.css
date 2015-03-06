@@ -39,29 +39,24 @@ a.icon{
 div.content{
 	z-index:0;
 	width:80%;
-	height:100%;
-	position:fixed;
+	min-width:50em;
+	min-height:100%;
+	position:absolute;
 	left:0;
 	right:0;	
-	top:0;
 	margin:auto;
 	background-color:rgba(248,248,248,0.94);
 }
 div.section{
 	background-color: #ECECEC;
-	height: 60px;
-	width:80%;
+	height:60px;
+	width:100%;
 	font-family: Sans-Serif;
 	font-style: italic;
 	font-size: 1em;
 	padding:10px 0px 0px 0px;
-	position:relative;
-	top: 180px;
-	left:0;
-	right:0;
-	margin:auto;
 	margin-top:20px;
-	cursor: pointer;
+	cursor:pointer;
 }
 span.title {
 	font-style: normal;
@@ -73,15 +68,11 @@ div.subsection{
 	background-color: #ECECEC;
 	height: auto;
 	padding:10px 0px 10px 0px;
-	width:80%;
+	width:100%;
 	font-family: Sans-Serif;
 	font-size: 1em;
 	font-style: normal;
-	position:relative;
-	top: 180px;
-	left:0;
-	right:0;
-	margin:auto;
+
 }
 .gist{
 	width: 70%;
