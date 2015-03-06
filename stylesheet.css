@@ -25,13 +25,13 @@ svg.logo {
 	left:0;
 	right:0;
 	margin:auto;
-	top:0;
+	top:10px;
 }
 svg.icon{
 	z-index:2;
 	position:relative;
 	right:11%;
-	margin-right:10px;
+	margin-right:7px;
 }
 a.icon{
 	text-decoration:none;
@@ -53,7 +53,7 @@ div.section{
 	width:80%;
 	font-family: Sans-Serif;
 	font-style: italic;
-	font-size: 17px;
+	font-size: 1em;
 	padding:10px 0px 0px 0px;
 	position:relative;
 	top: 180px;
@@ -63,13 +63,19 @@ div.section{
 	margin-top:20px;
 	cursor: pointer;
 }
+span.title {
+	font-style: normal;
+	font-family: 'Futura', Sans-Serif;
+	font-size: 2em;
+	margin:0px 20px 0px 50px;
+}
 div.subsection{
 	background-color: #ECECEC;
 	height: auto;
 	padding:10px 0px 10px 0px;
 	width:80%;
 	font-family: Sans-Serif;
-	font-size: 17px;
+	font-size: 1em;
 	font-style: normal;
 	position:relative;
 	top: 180px;
@@ -78,15 +84,10 @@ div.subsection{
 	margin:auto;
 }
 .gist{
-	width: 800px;
+	width: 70%;
 	margin: auto;
 }
-span.title {
-	font-style: normal;
-	font-family: 'Futura', Sans-Serif;
-	font-size: 30px;
-	margin:0px 20px 0px 50px;
-}
+
 p.subtext{
 	margin-right:100px;
 	margin-left:50px;
