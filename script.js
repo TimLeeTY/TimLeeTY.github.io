@@ -10,4 +10,8 @@ $(document).ready(function(){
 	$("#three").click(function(){
 		$("#subThree").slideToggle();
 	});
+	$("#four").click(function(){
+		$("#subFour").slideToggle();
+	});
+
 })
